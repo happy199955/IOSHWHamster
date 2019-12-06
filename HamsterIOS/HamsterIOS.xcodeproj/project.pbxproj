@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59A079D52398D02000271D67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A079D42398D02000271D67 /* AppDelegate.swift */; };
+		59A079D72398D02000271D67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A079D62398D02000271D67 /* SceneDelegate.swift */; };
+		59A079D92398D02000271D67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A079D82398D02000271D67 /* ContentView.swift */; };
+		59A079DB2398D02200271D67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A079DA2398D02200271D67 /* Assets.xcassets */; };
+		59A079DE2398D02200271D67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59A079DD2398D02200271D67 /* Preview Assets.xcassets */; };
+		59A079E12398D02200271D67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59A079DF2398D02200271D67 /* LaunchScreen.storyboard */; };
+		59A079E92398D03C00271D67 /* HamsterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A079E82398D03C00271D67 /* HamsterList.swift */; };
+		59A079ED2398DA8D00271D67 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A079EC2398DA8D00271D67 /* Main.swift */; };
+		59A079EF2398DB1700271D67 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A079EE2398DB1700271D67 /* PieChartView.swift */; };
+		59A079F12398DB2900271D67 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A079F02398DB2900271D67 /* CircleView.swift */; };
+		59A079F42398DE7B00271D67 /* HamsterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A079F32398DE7B00271D67 /* HamsterData.swift */; };
+		59A079F62398DEA300271D67 /* HamsterRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A079F52398DEA300271D67 /* HamsterRow.swift */; };
+		59A079F82398DEBD00271D67 /* HamsterEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A079F72398DEBD00271D67 /* HamsterEditor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59A079D12398D02000271D67 /* HamsterIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HamsterIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59A079D42398D02000271D67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59A079D62398D02000271D67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		59A079D82398D02000271D67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59A079DA2398D02200271D67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59A079DD2398D02200271D67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59A079E02398D02200271D67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59A079E22398D02200271D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A079E82398D03C00271D67 /* HamsterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamsterList.swift; sourceTree = "<group>"; };
+		59A079EC2398DA8D00271D67 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		59A079EE2398DB1700271D67 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		59A079F02398DB2900271D67 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		59A079F32398DE7B00271D67 /* HamsterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamsterData.swift; sourceTree = "<group>"; };
+		59A079F52398DEA300271D67 /* HamsterRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamsterRow.swift; sourceTree = "<group>"; };
+		59A079F72398DEBD00271D67 /* HamsterEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamsterEditor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59A079CE2398D02000271D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59A079C82398D02000271D67 = {
+			isa = PBXGroup;
+			children = (
+				59A079D32398D02000271D67 /* HamsterIOS */,
+				59A079D22398D02000271D67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59A079D22398D02000271D67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59A079D12398D02000271D67 /* HamsterIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59A079D32398D02000271D67 /* HamsterIOS */ = {
+			isa = PBXGroup;
+			children = (
+				59A079D42398D02000271D67 /* AppDelegate.swift */,
+				59A079D62398D02000271D67 /* SceneDelegate.swift */,
+				59A079D82398D02000271D67 /* ContentView.swift */,
+				59A079E22398D02200271D67 /* Info.plist */,
+				59A079DF2398D02200271D67 /* LaunchScreen.storyboard */,
+				59A079DA2398D02200271D67 /* Assets.xcassets */,
+				59A079EC2398DA8D00271D67 /* Main.swift */,
+				59A079E82398D03C00271D67 /* HamsterList.swift */,
+				59A079EE2398DB1700271D67 /* PieChartView.swift */,
+				59A079F02398DB2900271D67 /* CircleView.swift */,
+				59A079F52398DEA300271D67 /* HamsterRow.swift */,
+				59A079F72398DEBD00271D67 /* HamsterEditor.swift */,
+				59A079F32398DE7B00271D67 /* HamsterData.swift */,
+				59A079DC2398D02200271D67 /* Preview Content */,
+			);
+			path = HamsterIOS;
+			sourceTree = "<group>";
+		};
+		59A079DC2398D02200271D67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				59A079DD2398D02200271D67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59A079D02398D02000271D67 /* HamsterIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59A079E52398D02200271D67 /* Build configuration list for PBXNativeTarget "HamsterIOS" */;
+			buildPhases = (
+				59A079CD2398D02000271D67 /* Sources */,
+				59A079CE2398D02000271D67 /* Frameworks */,
+				59A079CF2398D02000271D67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HamsterIOS;
+			productName = HamsterIOS;
+			productReference = 59A079D12398D02000271D67 /* HamsterIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59A079C92398D02000271D67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = matcha55;
+				TargetAttributes = {
+					59A079D02398D02000271D67 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 59A079CC2398D02000271D67 /* Build configuration list for PBXProject "HamsterIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59A079C82398D02000271D67;
+			productRefGroup = 59A079D22398D02000271D67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59A079D02398D02000271D67 /* HamsterIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59A079CF2398D02000271D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A079E12398D02200271D67 /* LaunchScreen.storyboard in Resources */,
+				59A079DE2398D02200271D67 /* Preview Assets.xcassets in Resources */,
+				59A079DB2398D02200271D67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59A079CD2398D02000271D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A079F12398DB2900271D67 /* CircleView.swift in Sources */,
+				59A079F82398DEBD00271D67 /* HamsterEditor.swift in Sources */,
+				59A079EF2398DB1700271D67 /* PieChartView.swift in Sources */,
+				59A079F42398DE7B00271D67 /* HamsterData.swift in Sources */,
+				59A079ED2398DA8D00271D67 /* Main.swift in Sources */,
+				59A079E92398D03C00271D67 /* HamsterList.swift in Sources */,
+				59A079D52398D02000271D67 /* AppDelegate.swift in Sources */,
+				59A079D72398D02000271D67 /* SceneDelegate.swift in Sources */,
+				59A079F62398DEA300271D67 /* HamsterRow.swift in Sources */,
+				59A079D92398D02000271D67 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		59A079DF2398D02200271D67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59A079E02398D02200271D67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59A079E32398D02200271D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59A079E42398D02200271D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59A079E62398D02200271D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HamsterIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HamsterIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matcha55.HamsterIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59A079E72398D02200271D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HamsterIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HamsterIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = matcha55.HamsterIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59A079CC2398D02000271D67 /* Build configuration list for PBXProject "HamsterIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A079E32398D02200271D67 /* Debug */,
+				59A079E42398D02200271D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59A079E52398D02200271D67 /* Build configuration list for PBXNativeTarget "HamsterIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A079E62398D02200271D67 /* Debug */,
+				59A079E72398D02200271D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59A079C92398D02000271D67 /* Project object */;
+}
